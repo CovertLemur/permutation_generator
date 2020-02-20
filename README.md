@@ -30,6 +30,6 @@ when modifying the amount of allowable character length.
 The script will output to a file. This can be output to the terminal
 by modifying the last line of the script.
 
-	`ex: eval echo $bracestring | tr " " "\n"`
+`ex: eval echo $bracestring | tr " " "\n"`
 
 **CAUTION:** Permutation lists can be very large, this might take a while.
