@@ -15,13 +15,13 @@ perm.sh [Character Length] [Output File]
 Currently no way within the script, but can be done after the fact with `sed`.
 
 ```
-sed -i -e 's/^/prefix/' file
+sed -i -e 's/^/example/' file
 ```
 
 Or if you would like to create a new file:
 
 ```
-sed -e 's/^/prefix/' file > file.new
+sed -e 's/^/example/' file > file.new
 ```
 
 ## Appending string
@@ -29,13 +29,13 @@ sed -e 's/^/prefix/' file > file.new
 Currently no way within the script, but can be done after the fact with `sed`.
 
 ```
-sed -i -e 's/$/prefix/' file
+sed -i -e 's/$/example/' file
 ```
 
 Or if you would like to create a new file:
 
 ```
-sed -e 's/$/prefix/' file > file.new
+sed -e 's/$/example/' file > file.new
 ```
 
 
