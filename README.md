@@ -17,12 +17,12 @@ Current string is staticly set, with the regex values of [a-zA-Z0-9].
 Can be modified to take an argument with specific string by
 modifying the `str` variable to the third argument ($3).
 
-	`ex: str=$3`
+`ex: str=$3`
 
 The character length is limited to 9, but can be modified
 by adding additional regex to the case statement.
 
-	`ex: [1-9]|1[0-9]) break;;`
+`ex: [1-9]|1[0-9]) break;;`
 
 **CAUTION:** Permutation lists get large incredibly quickly, take caution
 when modifying the amount of allowable character length.
