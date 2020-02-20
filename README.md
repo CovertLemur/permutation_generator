@@ -10,6 +10,35 @@ Bash script to generate permutations from a string to an output file.
 perm.sh [Character Length] [Output File]
 ```
 
+## Prepending string
+
+Currently no way within the script, but can be done after the fact with `sed`.
+
+```
+sed -i -e 's/^/prefix/' file
+```
+
+Or if you would like to create a new file:
+
+```
+sed -e 's/^/prefix/' file > file.new
+```
+
+## Appending string
+
+Currently no way within the script, but can be done after the fact with `sed`.
+
+```
+sed -i -e 's/$/prefix/' file
+```
+
+Or if you would like to create a new file:
+
+```
+sed -e 's/$/prefix/' file > file.new
+```
+
+
 ## Notes
 
 Current string is staticly set, with the regex values of [a-zA-Z0-9].
