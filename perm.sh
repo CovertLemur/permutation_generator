@@ -26,8 +26,8 @@ CAUTION: Permutation lists can be very large, this might take a while.
 '
 
 # Initial string
-str="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
-
+#str="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+str="abc"
 # Help menu and input handling
 while :; do
     case $1 in
